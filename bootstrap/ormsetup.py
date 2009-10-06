@@ -48,7 +48,7 @@ movies_table = Table('movies', metadata,
     Column('fullyqualifiedname', String),
     Column('name', String),
     Column('path', String),
-    Column('date', Date),
+    Column('year', String),
     Column('quality', String),
     Column('ripper', String),
     Column('language', String)

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from ormsetup import *
+from bootstrap.ormsetup import *
 import os, hashlib
 
 def scan():
