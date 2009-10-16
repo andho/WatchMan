@@ -1,8 +1,12 @@
 # -*- coding: utf-8 -*-
 
-from bootstrap.ormsetup import *
-from model import Service
+import sys
+from PyQt4.QtGui import QApplication
+from UserInterface import mainwindow
 
-#Service.scan()
-#Service.emptyTheLibrary()
-print Service.getMovieList()
+app = QApplication(sys.argv)
+
+main = mainwindow.MainWindow()
+main.show()
+
+sys.exit(app.exec_())
